@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage          = "https://github.com/tanersener/ffmpeg-kit"
 
     s.author            = { "Taner Sener" => "tanersener@gmail.com" }
-    s.license           = { :type => "MIT", :file => "LICENSE" }
+    s.license           = { :file => '../LICENSE' }
 
     s.platform          = :osx
     s.requires_arc      = true
