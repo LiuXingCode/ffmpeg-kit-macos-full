@@ -1,1 +1,1 @@
-# ffmpeg-kit-ios-full-gpl
+# ffmpeg-kit-macos-full
