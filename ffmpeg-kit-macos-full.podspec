@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage          = "https://github.com/tanersener/ffmpeg-kit"
 
     s.author            = { "Taner Sener" => "tanersener@gmail.com" }
-    s.license           = { :file => '../LICENSE' }
+    s.license           = 'MIT'
 
     s.platform          = :osx
     s.requires_arc      = true
@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
 
     s.osx.deployment_target = '10.12'
     s.osx.frameworks    = 'AudioToolbox','AVFoundation','CoreAudio','CoreImage','CoreMedia','OpenCL','OpenGL', 'Security', 'VideoToolbox'
-    s.osx.vendored_frameworks = 'Frameworks/ffmpegkit.framework', 'Frameworks/libavcodec.framework', 'Frameworks/libavdevice.framework', 'Frameworks/libavfilter.framework', 'Frameworks/libavformat.framework', 'Frameworks/libavutil.framework', 'Frameworks/libswresample.framework', 'Frameworks/libswscale.framework'
+    s.osx.vendored_frameworks = 'Frameworks/ffmpegkit.xcframework', 'Frameworks/libavcodec.xcframework', 'Frameworks/libavdevice.xcframework', 'Frameworks/libavfilter.xcframework', 'Frameworks/libavformat.xcframework', 'Frameworks/libavutil.xcframework', 'Frameworks/libswresample.xcframework', 'Frameworks/libswscale.xcframework'
 
 end  
